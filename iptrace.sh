@@ -62,7 +62,7 @@ echo "
  Enter The Target IP Address: 
 "
 read IP
-php module/.iptracker.php $IP
+php module/iptracker.php $IP
 shift 1
 else
 break
@@ -117,7 +117,7 @@ done
 while [ True ] ; do
 if [ "$1" == "-m" ] ; then
 clear
-php module/.myip.php
+php module/myip.php
 
 shift 1
 else
